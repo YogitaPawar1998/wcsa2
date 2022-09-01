@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[method1 14]]>
+    </line>
+    <line>
+      <![CDATA[method2 15]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="57" started-at="2022-08-29T13:57:50 IST" finished-at="2022-08-29T13:57:50 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="57" started-at="2022-08-29T13:57:50 IST" finished-at="2022-08-29T13:57:50 IST">
+      <class name="testngpack.TestMethod1">
+        <test-method status="PASS" signature="method2()[pri:0, instance:testngpack.TestMethod1@1e965684]" name="method2" duration-ms="9" started-at="2022-08-29T13:57:50 IST" finished-at="2022-08-29T13:57:50 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[method2 15]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method1()[pri:0, instance:testngpack.TestMethod1@1e965684]" name="method1" duration-ms="9" started-at="2022-08-29T13:57:50 IST" finished-at="2022-08-29T13:57:50 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[method1 14]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+      </class> <!-- testngpack.TestMethod1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
