@@ -27,6 +27,8 @@ public class class1 {
 		       WebElement target = driver.findElement(By.xpath("//span[.='Men']"));
 		      Actions act = new  Actions(driver);
 	             act.moveToElement(target).perform();
+	             
+	             //sakank
 		 	        
 		         
 	}
